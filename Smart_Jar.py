@@ -47,7 +47,7 @@ while True:
         deviceCli.commandCallback = myCommandCallback
        
         if Weight<5:
-                payload = "sender_id=FSTSMS&message=The container is empty.&language=english&route=p&numbers=9491476109,9290736866"
+                payload = "sender_id=FSTSMS&message=The container is empty.&language=english&route=p&numbers=9999999999,8888888888"  #Enter phone nubers here.
                 headers ={
                                   'authorization': "YXWCzbVEPgG0SnK4yJRLd3wB92qMma7iZTOfFUDthe8oupxAs6v8wXU075C2kETO9SDpPsoKAhHJuRGc",
                                   'Content-Type': "application/x-www-form-urlencoded",
